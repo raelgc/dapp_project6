@@ -29,13 +29,15 @@ This project is based in the Coffee Supply Chain example provided as sample.
 - Truffle version: `v5.1.63`
 - Truffle Wallet Prodiver: `1.0.17`
 
-## Install
+## Requirements
 
-If not installed, install `truffle`:
+If not installed, install `truffle` running the below command in a terminal:
 
     npm install -g truffle
 
-Then install other packages:
+## Install
+
+Then install required packages, running a terminal:
 
     npm install
 
@@ -45,9 +47,9 @@ In a terminal, start truffle console in dev mode:
 
     truffle dev
 
-Then in the truffle console:
+Then in the truffle console run:
 
-    truffle compile
+    compile
 
 ## Test
 
@@ -55,7 +57,7 @@ In a terminal, start truffle console in dev mode:
 
     truffle dev
 
-Then in the truffle console:
+Then in the truffle console run:
 
     test
 
@@ -73,7 +75,9 @@ Then, in a second terminal window, start the web server:
 
 ## Deploy to Rinkeby
 
-In a terminal, run:
+First, create a `.secret` file in the project root folder with your MetaMask mnemonic.
+
+Then, run in a terminal:
 
     truffle migrate --network rinkeby
 
