@@ -5,16 +5,20 @@ Udacity Blockchain Developer Nanodegree, Project 6. Read more at: https://www.ud
 
 ## UML
 
-Activity:
+### Activity
+
 ![Activity Diagram](uml/0-supply_chain_activity_diagram.png)
 
-Sequence:
+### Sequence
+
 ![Sequence Diagram](uml/1-supply_chain_sequence_diagram.png)
 
-State:
+### State
+
 ![State Diagram](uml/2-supply_chain_state_diagram.png)
 
-Class (Data Model):
+### Class (Data Model)
+
 ![Class Diagram](uml/3-supply_chain_class_diagram.png)
 
 ## Libraries
