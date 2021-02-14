@@ -1,7 +1,5 @@
 pragma solidity >=0.4.24;
 
-import "../coffeebase/SupplyChain.sol";
-
 /// Provides basic authorization control
 contract Ownable {
     address private origOwner;
@@ -13,11 +11,6 @@ contract Ownable {
     constructor () internal {
         origOwner = msg.sender;
         emit TransferOwnership(address(0), origOwner);
-    }
-
-    /// Look up the address of the owner
-    function owner() public view returns (address) {
-        return origOwner;
     }
 
     /// Define a function modifier 'onlyOwner'
