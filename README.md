@@ -2,6 +2,9 @@
 
 Udacity Blockchain Developer Nanodegree, Project 6. Read more at: https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309
 
+## Description
+
+This project is based in the Coffee Supply Chain example provided as sample.
 
 ## UML
 
